@@ -69,13 +69,14 @@ use {
     solana_compute_budget::compute_budget::ComputeBudget,
     solana_client::rpc_client::RpcClient,
     solana_sdk::{
-        fee::FeeStructure, hash::Hash, rent_collector::RentCollector, signature::Keypair, feature_set::FeatureSet,
+        fee::FeeStructure, hash::Hash, rent_collector::RentCollector, signature::Keypair,
     },
     solana_svm::transaction_processor::{
         TransactionProcessingConfig, TransactionProcessingEnvironment,
     },
     std::sync::{Arc, RwLock},
     transaction::create_svm_transactions,
+    agave_feature_set::FeatureSet,
 };
 
 /// A PayTube channel instance.

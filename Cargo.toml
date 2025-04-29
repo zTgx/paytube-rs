@@ -17,6 +17,7 @@ solana-system-program = "2.2.7"
 spl-associated-token-account = "6.0.0"
 spl-token = "8.0.0"
 termcolor = "1.4.1"
+agave-feature-set = "2.2.7"
 
 [dev-dependencies]
 solana-test-validator = "2.2.7"
