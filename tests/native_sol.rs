@@ -3,7 +3,7 @@ mod setup;
 use {
     setup::{system_account, TestValidatorContext},
     solana_sdk::{signature::Keypair, signer::Signer},
-    solana_svm_example_paytube::{transaction::PayTubeTransaction, PayTubeChannel},
+    paytube_rs::{transaction::PayTubeTransaction, PayTubeChannel},
 };
 
 #[test]

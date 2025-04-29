@@ -6,7 +6,7 @@ use {
         TestValidatorContext,
     },
     solana_sdk::{pubkey::Pubkey, signature::Keypair, signer::Signer},
-    solana_svm_example_paytube::{transaction::PayTubeTransaction, PayTubeChannel},
+    paytube_rs::{transaction::PayTubeTransaction, PayTubeChannel},
     spl_associated_token_account::get_associated_token_address,
 };
 
